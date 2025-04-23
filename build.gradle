@@ -1,8 +1,12 @@
 plugins {
-    id 'fabric-loom' version '1.10.+'
+    id 'java'
+    id 'fabric-loom' version '1.10.5'  // Your existing Fabric Loom plugin
 }
 
-sourceCompatibility = targetCompatibility = JavaVersion.VERSION_17
+java {
+    sourceCompatibility = JavaVersion.VERSION_17  // or VERSION_17 if targeting newer Minecraft versions
+    targetCompatibility = JavaVersion.VERSION_17  // or VERSION_17
+}
 
 archivesBaseName = project.archives_base_name
 version = project.mod_version
