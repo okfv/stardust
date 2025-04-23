@@ -16,6 +16,10 @@ plugins {
 
 repositories {
     maven {
+        name 'Meteor Client'
+        url 'https://maven.meteordev.org/'
+    }
+    maven {
         name 'Fabric'
         url 'https://maven.fabricmc.net/'
     }
