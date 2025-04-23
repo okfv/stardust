@@ -16,13 +16,12 @@ group = project.maven_group
 
 repositories {
     maven {
-        name = "Meteor Dev Releases"
-        url = "https://maven.meteordev.org/releases"
+        url "https://maven.meteordev.org/releases"
     }
     maven {
-        name = "Meteor Dev Snapshots"
-        url = "https://maven.meteordev.org/snapshots"
+        url "https://maven.meteordev.org/snapshots"
     }
+    mavenCentral()
 }
 
 dependencies {
