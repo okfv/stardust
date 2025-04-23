@@ -4,8 +4,11 @@ plugins {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_21  // or VERSION_17 if targeting newer Minecraft versions
-    targetCompatibility = JavaVersion.VERSION_21  // or VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_17  // or VERSION_17 if targeting newer Minecraft versions
+    targetCompatibility = JavaVersion.VERSION_17  // or VERSION_17
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17) // Use 17 or 21 as needed
+    }
 }
 
 // archivesBaseName = project.archives_base_name
