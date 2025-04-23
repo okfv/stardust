@@ -1,5 +1,11 @@
 plugins {
-    id "fabric-loom" version "1.2-SNAPSHOT"
+    id "fabric-loom" version "1.11.0-alpha.10"
+}
+
+loom {
+    mixin {
+        useLegacyMixinAp = false
+    }
 }
 
 sourceCompatibility = targetCompatibility = JavaVersion.VERSION_17
