@@ -8,7 +8,8 @@ java {
     targetCompatibility = JavaVersion.VERSION_17  // or VERSION_17
 }
 
-archivesBaseName = project.archives_base_name
+// archivesBaseName = project.archives_base_name
+// temporary fix
 version = project.mod_version
 group = project.maven_group
 
