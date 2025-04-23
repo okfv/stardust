@@ -1,13 +1,13 @@
-pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        maven {
-            name 'Fabric'
-            url 'https://maven.fabricmc.net/'
-        }
-        mavenCentral()
-    }
-}
+// pluginManagement {
+//     repositories {
+//         gradlePluginPortal()
+//         maven {
+//             name 'Fabric'
+//             url 'https://maven.fabricmc.net/'
+//         }
+//         mavenCentral()
+//     }
+// }
 
 plugins {
     id 'java'
