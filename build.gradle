@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'fabric-loom' version '1.6'  // Your existing Fabric Loom plugin
+    id 'fabric-loom' version '1.7'  // Your existing Fabric Loom plugin
 }
 
 java {
