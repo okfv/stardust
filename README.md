@@ -1,5 +1,5 @@
 # ✨ Stardust
-
+edit for auto build
 Stardust is an addon for [Meteor Client](https://meteorclient.com) designed for use on the
 anarchy Minecraft server [2b2t](https://2b2t.org).<br>
 It contains original modules to enhance your experience on Old Server, with a focus on configurability and polish.
