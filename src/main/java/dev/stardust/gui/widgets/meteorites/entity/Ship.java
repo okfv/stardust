@@ -625,7 +625,7 @@ public class Ship extends Entity {
         }
 
         if (!this.hasEntropy()) {
-            boolean hyperLucky = widget.wave % 9 == 0 // boosted chance directly before a boss wave
+            boolean hyperLucky = widget.wave % 10 == 9 // boosted chance directly before a boss wave
                 ? widget.rng.nextInt(widget.CHEAT_MODE ? 7 : 69) <= widget.wave % 3
                 : widget.rng.nextInt(widget.CHEAT_MODE ? 10 : 100) <= widget.wave % 3;
             if (hyperLucky && (excludeLast != Powerups.STARDUST || !this.getPowerup().equals(Powerups.STARDUST))) {
